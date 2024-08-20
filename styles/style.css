@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.navbar .navigation{
+    display: flex;
+    align-items: center;
+}
+
+.navigation li{
+    list-style: none;
+    font-size: 25px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+ 
+
+.btn2 {
+    font-size: 25px;
+    letter-spacing: .2px;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: 0;
+    background: #ff5a5a;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 80px 180px;
+}
+
+.container .content {
+    width: 50%;
+}
+
+.container .content h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.container .content p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.container .content button {
+    font-size: 25px;
+    letter-spacing: .2px;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 25px 50px;
+    border: 0;
+    background: #ff5a5a;
+    border-radius: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.container .content button:hover {
+    background-color: black;
+}
+
+.container .content .logos img {
+    margin-right: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: .3s linear;
+    width: 180px;
+}
+
+.container .content .logos img:hover {
+    opacity: 1;
+}
+
+.container .container-img {
+    width: 50%;
+    text-align: center;
+}
+
+.container .container-img img {
+    width: 700px;
+    height: 600px;
+}
+
+/* Block-2 */
+.Block-2 {
+    padding: 80px 180px;
+}
+
+.Block-2 .Block-2-1 {
+    display: flex;
+
+}
+
+.Block-2 .h-2 {
+
+    margin-bottom: 80px;
+}
+
+.Block-2 .h-2 h1 {
+    font-size: 62px;
+}
+
+.Block-2 .Block-2-1 .h-3 p {
+    font-size: 25px;
+
+
+}
+
+.Block-2 .Block-2-1 .h-3 {
+    width: 30%;
+    padding: 20px 30px 20px 0px;
+}
+
+.Block-2 .Block-2-1 .h-3 img {
+    margin-bottom: 20px;
+    width: 120px;
+
+}
+
+.Block-2 .Block-2-1 .h-3 h1 {
+    margin-bottom: 20px;
+}
+
+/* Block3 section  */
+.Block-3 {
+    padding: 80px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block-3 .Block3Images {
+    background-color: #FF82A9;
+    width: 60%;
+    height: 560px;
+    position: relative;
+}
+
+.Block-3 .Block3Images img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+}
+
+#img1 {
+    top: 40px;
+    left: 10px;
+}
+
+#img2 {
+    top: 180px;
+    left: 170px;
+    width: 550px;
+}
+
+#img3 {
+    top: 80px;
+    left: 360px;
+    /* width: 120px; */
+}
+
+
+.Block-3 .Block-3-2 {
+    width: 52%;
+    padding-left: 60px;
+    font-size: 23px;
+}
+
+.Block-3 .Block-3-2 .btn-3 {
+    font-size: 25px;
+    margin-top: 20px;
+    border: none;
+    color: red;
+    background: #fff;
+}
+
+
+/* Block-4 */
+
+.Block-4 {
+    padding: 80px 120px;
+    display: flex;
+
+}
+
+.Block-4 .Block-4-1 {
+    width: 50%;
+    padding-left: 60px;
+    font-size: 25px;
+    margin-top: 150px;
+}
+
+.Block-4 .Block4Images {
+    background-color: #FF82A9;
+    width: 60%;
+    height: 560px;
+    position: relative;
+}
+
+.Block-4 .Block4Images img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+}
+
+#img4 {
+    top: 130px;
+    left: 10px;
+}
+
+#img5 {
+    top: 10px;
+    left: 270px;
+    height: 449px;
+    width: 493px;
+}
+
+#img6 {
+    top: 279px;
+    left: 318px;
+}
+
+.Block-4 .Block-4-1 .btn-4 {
+    font-size: 25px;
+    margin-top: 20px;
+    border: none;
+    background: #fff;
+    color: red;
+}
+
+/* Block-5 */
+
+/* <!--*********** Payment Section  ***********--> */
+#payment {
+    background-color: #fffcf9;
+    margin-top: 300px;
+}
+
+#payment .pay-container {
+    padding: 80px 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.pay-container .plan-txt {
+    width: 30%;
+}
+
+.plan-txt h1 {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.plan-txt p {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.plan-txt a {
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pay-container .plans {
+    width: 80%;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -300px;
+}
+
+.plans .starter-plan {
+    width: 45%;
+    background: #fff;
+    height: 770px;
+    border-radius: 30px;
+    box-shadow: 10px 15px 10px 0 gray;
+    margin-left: -100px;
+}
+
+.starter-plan .plan-heading {
+    background: rgb(171, 166, 166);
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+
+}
+
+.plan-heading h3 {
+    font-size: 35px;
+}
+
+.starter-plan .dollar {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.dollar h1 {
+    font-size: 55px;
+}
+
+.dollar span {
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+.starter-plan .d-txt {
+    padding: 30px 60px;
+}
+
+.d-txt p {
+    font-size: 27px;
+    border-bottom: 0.5px solid gray;
+    line-height: 55px;
+}
+
+.starter-plan .plan-btn {
+    text-align: center;
+}
+
+.plan-btn button {
+    padding: 20px 50px;
+    border-radius: 35px;
+    border: none;
+    background: #ff5a5a;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.plans .premium-plan {
+    width: 110%;
+    height: 850px;
+    position: relative;
+    top: 0;
+    left: 115%;
+    margin-top: -720px;
+}
+
+.premium-plan .plan-heading {
+    background: #fab0b0;
+}
+
+
+/* Block-6 */
+
+.Block-6 {
+    padding: 360px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.Block-6 .Block-6-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.Block-6 .Block-6-1 h1 {
+    margin-left: 169px;
+    font-size: 66px;
+    padding-bottom: 40px;
+    position: absolute;
+    margin-top: -145px;
+}
+
+.Block-6 .Block-6-1 p {
+    justify-content: center;
+}
+
+
+/* Block-7 */
+
+.Block-7 {
+    padding: 80px 120px;
+    display: flex;
+}
+
+.Block-7 h2 {
+    margin-left: 300px;
+    font-size: 35px;
+    color: black;
+}
+
+.Block-7 h2 i{
+    margin-right: 15px;
+    font-size: 40px;
+}
+
+.Block-7 p {
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.Block-7 .TickSign-1 .TickSign-2 {
+    margin-top: 40px;
+}
+
+.Block-7 .TickSign-1 .TickSign-3 {
+    margin-top: 40px;
+}
+
+/* Block-8 */
+.Block-8 {
+    padding: 200px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #ffd2b1;
+    width: 520px 730px;
+}
+
+.Block-8 .Block-8-1 h1 {
+    margin-left: 150px;
+    font-size: 58px;
+    padding-bottom: 40px;
+}
+
+.Block-8 .Block-8-1 p {
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.Block-8 .Block-8-1 button {
+    font-size: 25px;
+    letter-spacing: .2px;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 25px 50px;
+    border: 0;
+    background: #ff5a5a;
+    border-radius: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s linear;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+/* Block-9 */
+.Block-9 {
+    background-color: #33384f;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f6eded;
+    padding: 80px 180px;
+
+}
+
+.Block-9 .block9-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Block-9 .block9-main .Block-9-1 img{
+    width: 160px;
+}
+
+.Block-9 .block9-main .Block-9-1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* .Block-9 .Block-9-1 .logosportion{
+     display: flex;
+     width: -2px;
+     border: none;
+} */
+
+.Block-9 .block9-main .Block-9-1 input {
+    font-size: 25px;
+    letter-spacing: .2px;
+    font-family: poppins;
+    font-weight: 600;
+    padding: -10px 110px;
+    padding-left: 25px;
+    border: 0;
+    background: white;
+    width: 400px;
+    height: 80px;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: -10px;
+
+}
+
+.Block-9 .block9-main .Block-9-1 button {
+    font-size: 25px;
+    letter-spacing: .2px;
+    font-family: poppins;
+    font-weight: 600;
+    padding: -10px 110px;
+    border: 0;
+    background: #ff5a5a;
+    width: 400px;
+    height: 80px;
+    color: #fff;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-left: -10px;
+
+}
